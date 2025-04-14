@@ -1,0 +1,62 @@
+.limit-content{
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+.govno{
+    background-color: red;
+}
+
+.disabled-btn{
+    background-color: darkgray;
+    color: white;
+}
+disabled-btn:hover{
+    background-color: gray !important;
+}
+.form-group input{
+    border: 1px solid gray !important;
+}
+.pass{
+    position: relative;
+}
+.pass i{
+    position: absolute;
+    right: 5px;
+    top: 23px;
+    cursor: pointer;
+}
+.block-images{
+    position: relative;
+    margin: 10px 0 10px 0;
+}
+.delete-image{
+    position: absolute;
+    right: 20px;
+    top: 26px;
+    border: 1px solid red;
+    width: 20px;
+    height: 25px;
+    text-align: center;
+    cursor: pointer;
+    font-weight: 600;
+    border-radius: 4px;
+    font-style: normal;
+}
+.delete-image:hover{
+    background-color: red;
+    color: white;
+    font-weight: bold;
+    border: 1px solid gray;
+    transition: all .3s;
+}
+.platforms span:not(:first-child){
+    margin-left: 3px;
+}
+
+.addcart{
+    cursor: pointer;
+}
+
